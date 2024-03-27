@@ -8,7 +8,7 @@ class SaveObjects:
         method = f"save_{typename}"
         assert hasattr(self, method), \
             f"Unknown object type {typename}"
-        save_function = getattr(self, method)(object)
+        save_method = getattr(self, method)(object)
 # [/save]
 
     def _write(self, *fields):
