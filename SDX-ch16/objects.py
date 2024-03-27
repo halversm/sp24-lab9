@@ -3,12 +3,12 @@ class SaveObjects:
     def __init__(self, writer):
         self.writer = writer
 
-    def save(self, thing):
-        typename = type(thing).__name__
+    def save(self, object):
+        typename = type(object).__name__
         method = f"save_{typename}"
         assert hasattr(self, method), \
             f"Unknown object type {typename}"
-        getattr(self, method)(thing)
+        save_function = getattr(self, method)(object)
 # [/save]
 
     def _write(self, *fields):
