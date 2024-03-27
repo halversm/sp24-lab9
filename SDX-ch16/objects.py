@@ -47,6 +47,9 @@ class SaveObjects:
             self.save(key)
             self.save(value)
 
+    def save_to_file(self, thing):
+        self.save(thing)
+
 
 # [load]
 class LoadObjects:
@@ -97,3 +100,6 @@ class LoadObjects:
             v = self.load()
             result[k] = v
         return result
+    
+    def load_from_file(self):
+        return self.load()
