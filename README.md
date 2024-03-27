@@ -68,6 +68,7 @@ Answer the following questions:
 
 2.  Why doesn’t `LoadAlias.load` calculate object IDs? 
     Why does it use the IDs saved in the archive instead?
+    By using the IDs saved in the archive, you ensure the objects are loaded with the same IDs they were saved with. Recalculating an ID may present issues if the calculation method is different than the way it was calculated when saving. The ID sounds like it may contain important information, so it's best to use the same ID name for each object instead of possibly changing it during calculation.
 
 ### Exercise 4: Strings
 
