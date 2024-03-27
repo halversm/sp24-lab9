@@ -7,11 +7,11 @@ Organization:
 * SDX-ch16: The code files for the _SDX Ch. 16_ activity (as downloaded directly from the book website, unmodified) 
 
 ## Team Members for Part 1
-Enter your names here
+Molly Halverson
 
 ## Team Roles for Part 1
 Who will start out as
-* DRIVER: Driver's name
+* DRIVER: Molly
 * NAVIGATOR: Navigator's name
 
 You will switch halfway through this activity.
@@ -21,7 +21,10 @@ You will switch halfway through this activity.
 Write your answers to the questions below.
 
 * What were the main ideas from SDX chapter 16?
+Implementing version control using a framework or a built-in module. 
+
 * What questions did you have about the material in the chapters? What did you find confusing?
+I found the section about aliasing to be confusing. 
 
 ### Exercise 0: Running the tests
 
