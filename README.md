@@ -53,7 +53,7 @@ Refactor for understandability by renaming a variable and introducing an explain
 Run the corresponding test module to verify that your refactorings didn't break anything.
 
 After doing this exercise, briefly explain what you changed.
-I changed the "thing" parameter to "object". I also added the explanatory variable and called it "save_function" so it's easier to tell which method is being used to save the object.
+I changed the "thing" parameter to "object". I also added the explanatory variable and called it "save_method" so it's easier to tell which method is being used to save the object.
 
 ### Exercise 3: Understanding code
 
@@ -64,6 +64,7 @@ Answer the following questions:
         alias:12345678:
 
     (Hint: Look at the implementation of `LoadObjects.load`.) 
+    It looks like the ':' at the end makes sure that the value portion is still included as an empty string in the 'fields' list if it is empty. The consistency of the colon helps with parsing since it indicates where everything starts and ends.
 
 2.  Why doesn’t `LoadAlias.load` calculate object IDs? 
     Why does it use the IDs saved in the archive instead?
