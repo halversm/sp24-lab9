@@ -53,6 +53,7 @@ Refactor for understandability by renaming a variable and introducing an explain
 Run the corresponding test module to verify that your refactorings didn't break anything.
 
 After doing this exercise, briefly explain what you changed.
+I changed the "thing" parameter to "object". I also added the explanatory variable and called it "save_function" so it's easier to tell which method is being used to save the object.
 
 ### Exercise 3: Understanding code
 
